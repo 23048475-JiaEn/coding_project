@@ -17,10 +17,10 @@ const upload = multer({storage:storage});
 
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'user'
+    host: 'db4free.net',
+    user: 'lololking57',
+    password: 'Pa$$w0rd',
+    database: 'lololking57'
 });
 
 connection.connect((err) => {
