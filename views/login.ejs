@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login screen</title>
+    <link rel="stylesheet" href="/style.css"> 
+</head>
+<body>
+    <div class="login">
+        <h1>Login</h1>
+        <div class="container">
+            <div class="main">
+                <div class="content">
+                    <h2>Log In</h2>
+                    <form action="/login" method="post">
+                        <input type="text" name="username" placeholder="Username" required autofocus>
+                        <input type="password" name="password" placeholder="Password" required>
+                        <button class="button" type="submit">Login</button>
+                    </form>
+                    <p class="account">Don't have an account? <a href="/sign-up">Create</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

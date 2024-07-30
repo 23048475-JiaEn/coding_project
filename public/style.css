@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body {
+    background-color: #808080; /* Using a specific color code for consistency */
+}
+
+.login {
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    background-color: #808080; /* Match with body background for uniformity */
+    padding: 30px;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #FFFFFF; /* Using hex code for white */
+    margin-bottom: 30px;
+}
+
+.login h2 {
+    line-height: 40px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000; /* Using hex code for black */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login.main {
+    position: relative;
+    display: flex;
+    margin: 30px 0;
+    
+}
+
+
+.content {
+    flex: 1;
+    padding: 5em; /* Further increased padding for larger content box */
+    background-color: white;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%; /* Ensuring full width inside its container */
+    max-width: 800px; /* Further increased maximum width */
+}
+
+.content form input {
+    display: block;
+    width: 100%; /* Make inputs full width */
+    padding: 0.5em; /* Adjust padding for inputs */
+    margin-bottom: 10px; /* Add space below each input */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+.button {
+    width: 100%;
+    padding: 1em; /* Increased padding for button */
+    font-size: 0.9em; /* Increased font size for button text */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+
